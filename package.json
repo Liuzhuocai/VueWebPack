@@ -1,0 +1,53 @@
+{
+  "name": "com.webpack.com",
+  "version": "1.0.0",
+  "description": "no",
+  "scripts": {
+    "build-SdSfSfCx": "webpack --config ./SdSfSfCx.webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./mobile.webpack.config.js",
+    "dev2": "cross-env NODE_ENV=development webpack-dev-server --config ./SdSfSfCx.webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "framework7": "5.7.8",
+    "framework7-vue": "5.7.8",
+    "vue": "2.6.11",
+    "vuex": "3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@babel/preset-env": "7.6.3",
+    "@babel/runtime-corejs3": "^7.8.4",
+    "@vue/babel-helper-vue-jsx-merge-props": "1.0.0",
+    "@vue/babel-preset-jsx": "1.1.2",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "^0.1.19",
+    "core-js": "3.3.6",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "js-conditional-compile-loader": "1.0.13-beta.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "postcss-loader": "^2.1.4",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.1.2",
+    "vue-loader": "15.9.3",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.6.11",
+    "webpack": "4.41.2",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "author": "yy",
+  "license": "ISC"
+}

@@ -1,0 +1,168 @@
+//手机端和PC端下公用的样式
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, p, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover:extend(a) {
+  }
+
+  &:focus {
+    -webkit-moz-outline-style: none;
+    -moz-moz-outline-style: none;
+    -ms-moz-outline-style: none;
+    -o-moz-outline-style: none;
+    moz-outline-style: none;
+  }
+}
+
+img {
+  border: 0;
+}
+
+ul, li {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+.px2rem(@px) {
+  @rem: @px/100rem;
+}
+
+.font-color-red {
+  color: #e50000 !important;
+}
+
+.font-color-blue {
+  color: #0080FF !important;
+}
+
+.font-color-orange {
+  color: #ff6a00 !important;
+}
+
+.font-color-gray {
+  color: #b2b2b2 !important;
+}
+
+.font-color-yellow {
+  color: #cca329 !important;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-13 {
+  font-size: 13px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-22 {
+  font-size: 22px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.display-block {
+  display: block !important;
+}
+
+.display-inline-block {
+  display: inline-block !important;
+}
+
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.button-danger {
+  color: red;
+  border-color: red;
+}
+
+.user-select-none {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+//.ico{
+//    display: inline-block;
+//    background: transparent no-repeat center center;
+//    vertical-align: middle;
+//    &.ico-logo{
+//        background-image: url(../imgs/web/logo.png);
+//        width: 25px;
+//        height: 40px;
+//    }
+//    &.ico-avator{
+//        background-image: url(../imgs/web/avator.png);
+//        height: 24px;
+//        width: 24px;
+//    }
+//    &.ico-arrow-right{
+//        background-image: url(../imgs/web/tab_yellow_arrow.png);
+//        height: 10px;
+//        width: 6px;
+//    }
+//    &.ico-close{
+//        background-image: url("../imgs/web/login_close_icon.png");
+//        width: 12px;
+//        height: 12px;
+//    }
+//    &.ico-caution{
+//        background-image: url("../imgs/web/input_caution_icon.png");
+//        width: 16px;
+//        height: 16px;
+//    }
+//}
