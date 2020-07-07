@@ -1,5 +1,6 @@
 //PC端首页
 @import (once) url(web_base);
+@import (once) url(web_base);
 
 * {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -655,6 +656,145 @@ body {
     height: 36px;
     padding: 0;
   }
+}
+
+//颜色
+@color-black: #595980;
+@color-black1: #333333;
+@color-gray: #b2b2b2;
+@color-gray1: #cccccc;
+@color-gray2: #e6e6e6;
+@color-blue: #006cd9;
+
+//字体
+@font-size-12: 12px;
+@font-size-14: 14px;
+@font-size-16: 16px;
+@font-size-24: 24px;
+@font-size-30: 30px;
+
+
+.black-title{
+  font-size:@font-size-30;
+  font-weight: bold;
+  color:@color-black;
+  padding: 0 20px;
+}
+
+.coming-soon-text{
+  font-size:@font-size-16;
+  color:@color-gray1;
+}
+
+.item-title{
+  font-size:@font-size-16;
+  color:@color-black1;
+  font-weight:bold;
+
+}
+.item-text{
+  font-size:@font-size-12;
+  color:@color-gray;
+  margin-top: 2px;
+;
+}
+.blue-title{
+  font-size:@font-size-24;
+  font-weight: bold;
+  color:@color-blue;
+  line-height:90px;
+}
+.text-normal-p{
+  font-size:@font-size-14;
+  color:@color-black1;
+  line-height:30px;
+  text-indent: 2em;
+}
+.title-line{
+  height:2px;
+  width:100px;
+  color:@color-gray2;
+
+}
+.main {
+  overflow: auto;
+  background-color: white;
 
 }
 
+.header-container {
+  width: 1300px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: white;
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  vertical-align: middle;
+
+  &.icon-header {
+    background-image: url(../imgs/logo.png);
+    width: 34px;
+    height: 40px;
+  }
+
+  &.icon-avator {
+    background-image: url(../imgs/avator.png);
+    width: 34px;
+    height: 40px;
+  }
+}
+
+.toolbar-text {
+  font-size: @font-size-14;
+  color: @color-black;
+
+  &:first-child {
+    color: @color-black1;
+  }
+}
+
+
+.spalash-banner-container {
+  position: relative;
+  height: 360px;
+
+  .banner1 {
+    position: absolute;
+    background-image: url(../imgs/banner_bk.png);
+    height: 360px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .banner2 {
+    position: absolute;
+    background: url(../imgs/banner_img1.png) no-repeat;
+    height: 360px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+  }
+}
+.large-card-container{
+  display: flex;
+  width: 1200px;
+  height: 540px;
+  box-sizing: border-box;
+  padding: 40px 0px 60px 70px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 3px 6px #f2f2f2;
+  margin: auto;
+  &.top{
+    transform: translateY(-40px);
+  }
+}
