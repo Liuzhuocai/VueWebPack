@@ -78,7 +78,7 @@ if (webpackconfig.mode === 'development') {
     // webpackconfig.output.publicPath='/jydsjweb/';
     webpackconfig.output.path = '/';
     webpackconfig.devServer.port = 3006;
-    webpackconfig.devServer.host = '0.0.0.0';
+    webpackconfig.devServer.host = 'localhost';
     webpackconfig.devServer.publicPath = webpackconfig.output.publicPath;
     console.log('http://localhost:3006')
     webpackconfig.devServer.watchOptions.ignored = [];

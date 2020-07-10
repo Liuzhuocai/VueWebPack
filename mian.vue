@@ -1,13 +1,14 @@
 <template>
-  <!--  <mainPage page-title="师德师风失范查询">
-        &lt;!&ndash;        <index></index>&ndash;&gt;
-    </mainPage>-->
-    <span>手动1阀撒大声12222211111地</span>
+  <div class="main">
+    <toolbar msg="四川省教育公共信息服务平台"/>
+    <mainPage></mainPage>
+  </div>
+
 </template>
 
 <script>
-  /*  import index from './pages/index';
-    import mainPage from './components/mainPage';*/
+    import toolbar from './components/toolbar.vue';
+    import mainPage from './components/mainPage.vue';
 
     export default {
         name: "mian",
@@ -18,14 +19,9 @@
             }
         },
         components: {
-            // index, mainPage
+          toolbar, mainPage
         },
-        created() {
-            // setTimeout((el)=>{
-            // this.getMenus();
-            // },5000)
 
-        },
         methods: {
             // getMenus() {
             //     this.menuList = [
